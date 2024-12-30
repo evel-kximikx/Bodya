@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(to right, #0047ab, #007bff);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  header .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 20px;
+  }
+  
+  header h1 {
+    margin: 200px 0 10px;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0047ab;
+  }
+  
+  .about img {
+    float: left;
+    margin-right: 20px;
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .program ul {
+    list-style: disc;
+    margin: 20px 0 0 20px;
+  }
+  
+  .news article {
+    margin-bottom: 20px;
+  }
+  
+  .news article h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .news article p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .support button {
+    background: #0047ab;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .support button:hover {
+    background: #003580;
+  }
+  
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
